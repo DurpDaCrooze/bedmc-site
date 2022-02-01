@@ -14,6 +14,11 @@ app.use(__dirname + '/BedMC-WEB', express.static("../BedMC-WEB"))
 
 let cords = [];
 
+app.get('/clearcanvas', (req, res) =>{
+    console.log("Drawing cleared..");
+    cords.splice(0, cords.length);
+})
+
 app.get('/getcords', (req, res) => {
     console.log("lol");
     res.send(cords);

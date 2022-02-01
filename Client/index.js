@@ -5,7 +5,7 @@ const clearbutton = document.getElementById("clearbutton");
 ctx = canvas.getContext("2d");
 ctxb = canvas.getContext("2d");
 
-const url = "http://localhost:3001"
+const url = "https://drawboardjs-production.up.railway.app"
 
 console.log("Script is running!");
 
@@ -27,6 +27,7 @@ function startLoop(){
 
 clearbutton.onclick = function(){
   clearcanvas();
+  fetch(url + "/clearcanvas")
 }
 
 function clearcanvas(){
@@ -78,7 +79,7 @@ canvas.addEventListener('mousemove', e => {
     ctx.fillStyle = pencilcolor;
     ctx.fillRect(correctX, correctY, 10,10);
 
-    previousX = correctX;n
+    previousX = correctX;
     previousY = correctY;
 
     firstloop = false;
