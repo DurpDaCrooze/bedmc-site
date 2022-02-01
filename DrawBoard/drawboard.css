@@ -33,9 +33,13 @@ body{
   margin-left: -8px;
   margin-bottom: -8px;
 
+  width: 100%;
+  
   clear: both;
-  position: relative;
   height: 30px;
+
+  position: fixed;
+  bottom: 0px;
 }
 
 #hearticon{
