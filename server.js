@@ -12,26 +12,6 @@ const port = 3001;
 app.use(express.static('BedMC-WEB'));
 app.use(__dirname + '/BedMC-WEB', express.static("../BedMC-WEB"))
 
-let cords = [];
-
-app.get('/clearcanvas', (req, res) =>{
-    console.log("Drawing cleared..");
-    cords.splice(0, cords.length);
-})
-
-app.get('/getcords', (req, res) => {
-    console.log("lol");
-    res.send(cords);
-})
-
-app.get('/updatecords', (req, res) => {
-    var cordsh = req.header('cords');
-    cordsh = cordsh.split(',');
-    cords.push(cordsh);
-    console.log(cords);
-    res.send(cords);
-})
-
 app.get('/', (req, res) =>{
     res.sendFile(__dirname + '/BedMC-WEB/index.html')
 })
