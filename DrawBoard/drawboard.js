@@ -5,8 +5,6 @@ const clearbutton = document.getElementById("clearbutton");
 ctx = canvas.getContext("2d");
 ctxb = canvas.getContext("2d");
 
-const url = "https://drawboardjs-production.up.railway.app"
-
 console.log("Script is running!");
 
 //modifiable vars
@@ -19,33 +17,12 @@ var previousY = 0;
 var mousedown = false;
 var firstloop = true;
 
-startLoop();
-
-function startLoop(){
-  setInterval(updateCanvas, 100);
-}
-
 clearbutton.onclick = function(){
   clearcanvas();
-  fetch(url + "/clearcanvas")
 }
 
 function clearcanvas(){
   ctx.clearRect(0,0, canvas.width, canvas.height);
-}
-
-function updateCanvas(){
-  console.log("updated");
-  var datastore;
-    //retdata
-    fetch(url + "/getcords")
-    .then(response => response.json())
-    .then(data => { 
-      console.log(data);
-      for(var i = 0; i < data.length; i++){
-        ctx.fillRect(data[i][0], data[i][1], 10, 10);
-      }
-    }); 
 }
 
 canvas.addEventListener('mousemove', e => {
@@ -66,12 +43,6 @@ canvas.addEventListener('mousemove', e => {
     if(!firstloop){
       ctx.fillStyle = pencilcolordebug;
       ctx.fillRect(differenceXmid, differenceYmid, 10, 10);
-
-      fetch(url + "/updatecords", {
-        headers:{
-          "cords" : differenceXmid + ',' + differenceYmid
-        }
-      })
       
     }
 
@@ -87,12 +58,6 @@ canvas.addEventListener('mousemove', e => {
     cords[0] = correctX;
     cords[1] = correctY;
 
-      //sendata
-    fetch(url + "/updatecords", {
-    headers:{
-      "cords" : cords[0] + ',' + cords[1]
-    }
-  })
   }
 })
 
