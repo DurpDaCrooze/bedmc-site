@@ -22,7 +22,7 @@ var firstloop = true;
 startLoop();
 
 function startLoop(){
-  setInterval(updateCanvas, 1000);
+  setInterval(updateCanvas, 100);
 }
 
 clearbutton.onclick = function(){
@@ -65,13 +65,20 @@ canvas.addEventListener('mousemove', e => {
     if(!firstloop){
       ctx.fillStyle = pencilcolordebug;
       ctx.fillRect(differenceXmid, differenceYmid, 10, 10);
+
+      fetch(url + "/updatecords", {
+        headers:{
+          "cords" : differenceXmid + ',' + differenceYmid
+        }
+      })
+      
     }
 
     //filling in innitial click
     ctx.fillStyle = pencilcolor;
     ctx.fillRect(correctX, correctY, 10,10);
 
-    previousX = correctX;
+    previousX = correctX;n
     previousY = correctY;
 
     firstloop = false;

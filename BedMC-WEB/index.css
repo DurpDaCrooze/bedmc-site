@@ -1,0 +1,233 @@
+/*body section-----------------------------------------------------*/
+body{
+    background-color:#27282c;
+    width: 100%;
+}
+
+#bodycontent{
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+h1{
+  padding-top: 0px;
+  color: #27282c;
+  font-family:"Montserrat";
+  margin-bottom: 0px;
+}
+
+h3{
+  margin-top: -15px;
+  padding-top: 10px;
+  color: #27282c;
+  font-family:"Montserrat";
+  font-size: 15px;
+}
+
+/*saberwars section-----------------------------------------------------*/
+#saberwarsdiv{
+  background-color: #fee1c7;
+
+  padding-left: 25%;
+  padding-right: 25px;
+  padding-top: 1px;
+  padding-bottom:10px;
+  margin-top: 15px;
+  margin-left: -28px;
+  margin-bottom: 75px;
+}
+
+#saberwarsdiv{
+  background-color: #fee1c7;
+
+  padding-left: 25%;
+  padding-right: 25px;
+  padding-top: 1px;
+  padding-bottom:10px;
+  margin-top: 15px;
+  margin-left: -28px;
+  margin-bottom: 75px;
+}
+
+#saberwarsgif{
+  width: 500px;
+  float: right;
+  margin-top: -230px;
+  margin-right: 450px;
+  background: blue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 4px #877769;
+}
+
+#saberwarspar{
+  color: #27282c;
+  font-family:"Montserrat";
+  width: 450px;
+  text-align: right;
+  font-weight: 600;
+}
+
+#saberwarstitle{
+  text-align: right;
+  width: 450px;
+}
+
+#saberwarstitleline{
+  background-color: #27282c;
+  border-color: none;
+}
+
+#header{
+  background-color: #f44174;
+  border-color: #f44174;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  font-family:"Montserrat";
+  color: #fee1c7;
+  display: grid;
+  padding-left: 30px;
+}
+
+#webtitle{
+  font-size: 20px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+/*blog section-----------------------------------------------------*/
+#blogcomponent{
+  color: #fee1c7;
+  font-family:"Montserrat";
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: #fa7e61;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+#addnewbutton{
+  color: #fee1c7;
+  font-family:"Montserrat";
+  font-weight: bold;
+  background-color: #b5a886;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+
+  transition-duration: 0.2s;
+  transition-property: background;
+}
+
+#addnewbutton:hover{
+  color: #fee1c7;
+  font-family:"Montserrat";
+  background-color: #fa7e61;
+  border-color: #f44174;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+
+  transition-duration: 0.2s;
+  transition-property: background;
+}
+
+#addnewbutton:active{
+  color: #fee1c7;
+  font-family:"Montserrat";
+  background-color: #4c1e4f;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.blogcomponent{
+  color: #fee1c7;
+  font-family:"Montserrat";
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: #fa7e61;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+/*footer section-----------------------------------------------------*/
+#footerdiv{
+  background-color: #f44174;
+  border-color: #f44174;
+  color: #fee1c7;
+
+  font-family:"Montserrat";
+  font-weight: bolder;
+
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom:10px;
+  margin-top: 15px;
+  margin-left: -8px;
+  margin-bottom: -8px;
+
+  clear: both;
+  position: relative;
+  height: 30px;
+}
+
+#hearticon{
+  width: 15px;
+}
+
+#redbullicon{
+  width: 50px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -5px;
+}
+
+#dumbassicon{
+  width: 90px;
+  float: right;
+  margin-right: 15px;
+  margin-top: -5px;
+}
+
+#scotlandicon{
+  width: 50px;
+  float: right;
+  margin-right: 15px;
+  margin-top: -5px;
+}
+
+#bedmcicon{
+  width: 76px;
+  float: right;
+  margin-right: 15px;
+  margin-top: -5px;
+}
+
+/*poster strip section-----------------------------------------------------*/
+#posterdiv{
+  height: auto;
+  width: auto;
+  margin-left: -28px;
+  margin-bottom: 20px;
+}
+
+#posterimg{
+  position: inherit;
+  height: 900px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.fadeout{
+  opacity: 0;
+  transition: opacity 2s;
+}
