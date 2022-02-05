@@ -4,12 +4,12 @@ var blogcontainer = document.getElementById('blogcontainer');
 var addnewbutton = document.getElementById('addnewbutton');
 var banner = document.getElementById('posterimg');
 
-title.innerHTML = "BedMCFuckLol!";
+var title = "bedmc";
 
 changeTitle();
 
 function changeTitle(){
-    title.innerHTML = "Nah buddy!";
+    title.innerHTML = title;
 }
 
 addnewbutton.onclick = function(){
@@ -20,7 +20,6 @@ function createElement(){
   const newBlog = document.createElement("div");
   blogcontainer.appendChild(newBlog);
   newBlog.classList.add('blogcomponent');
-  console.log("div added lol");
 }
 
 set_time();

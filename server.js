@@ -23,7 +23,7 @@ app.get('/drawboard', (req, res) =>{
 })
 
 app.get('/podcast/rss', (req, res) =>{
-    res.sendFile(__dirname + '/RssFeed/rss.xml')
+    res.sendFile(__dirname + '/RssFeed/video.mp4')
 })
 
 app.get('/*', (req, res) =>{
