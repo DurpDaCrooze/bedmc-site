@@ -1,0 +1,36 @@
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="en" version="2.0">
+<channel>
+<title>
+<![CDATA[ dumbcast ]]>
+</title>
+<link>https://www.bedmc.net</link>
+<atom:link href="https://media.rss.com/dumbassproductions/feed.xml" rel="self" type="application/rss+xml"/>
+<atom:link rel="hub" href="https://hub.livewire.io/"/>
+<description>
+<![CDATA[ podcast but dumb ]]>
+</description>
+<generator>RSS.com v1.4.8</generator>
+<lastBuildDate>Sat, 05 Feb 2022 14:17:11 GMT</lastBuildDate>
+<language>en</language>
+<copyright>
+<![CDATA[ DumbassProductions2022 ]]>
+</copyright>
+<itunes:image href="https://assets.rss.com/images/no-cover-1400.jpg"/>
+<image>
+<url>https://assets.rss.com/images/no-cover-1400.jpg</url>
+<title>dumbcast</title>
+<link>https://www.bedmc.net</link>
+</image>
+<itunes:summary>
+<![CDATA[ podcast but dumb ]]>
+</itunes:summary>
+<podcast:locked owner="dumbassproductionsmt@gmail.com">Yes</podcast:locked>
+<itunes:author>DumbassProductions</itunes:author>
+<itunes:owner>
+<itunes:name>DumbassProductions</itunes:name>
+<itunes:email>dumbassproductionsmt@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:explicit>no</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+</channel>
+</rss>
