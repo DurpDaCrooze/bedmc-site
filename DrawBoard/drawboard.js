@@ -46,6 +46,12 @@ canvas.addEventListener('mousemove', e => {
       
     }
 
+    //dynadynafill
+    for(var i = 0; i < differenceX; i++){
+      
+    }
+
+
     //filling in innitial click
     ctx.fillStyle = pencilcolor;
     ctx.fillRect(correctX, correctY, 10,10);
