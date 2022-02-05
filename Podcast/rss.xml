@@ -15,7 +15,7 @@
 <copyright>
 <![CDATA[ DumbassProductions2022 ]]>
 </copyright>
-<itunes:image href="https://assets.rss.com/images/no-cover-1400.jpg"/>
+<itunes:image href="https://media.discordapp.net/attachments/297094570158850049/939533286353559562/discordptb__f_0016c8__1564123130000.png"/>
 <image>
 <url>https://assets.rss.com/images/no-cover-1400.jpg</url>
 <title>dumbcast</title>
@@ -25,12 +25,33 @@
 <![CDATA[ podcast but dumb ]]>
 </itunes:summary>
 <podcast:locked owner="dumbassproductionsmt@gmail.com">Yes</podcast:locked>
-<itunes:author>DumbassProductions</itunes:author>
+<itunes:author>Dumb*ssProductions</itunes:author>
 <itunes:owner>
-<itunes:name>DumbassProductions</itunes:name>
+<itunes:name>Dumb*ssProductions</itunes:name>
 <itunes:email>dumbassproductionsmt@gmail.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
 <itunes:type>episodic</itunes:type>
+
+<item>
+<title>#0 - Hello World.</title>
+<description>Testing out our podcast on spotify! Who knew this platform was free to post on :/</description>
+<pubDate>Sat, 05 Feb 2022 15:40:00 -0000</pubDate>
+<itunes:title>#0 - Hello World.</itunes:title>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:author>Dumb*ssProductions</itunes:author>
+<itunes:subtitle/>
+<itunes:summary>The gang tests spotify streaming for the first time, some of them got stage fright and some just didnt speak at all.</itunes:summary>
+<content:encoded>
+<itunes:image href="https://media.discordapp.net/attachments/297094570158850049/939533970079645786/Discord_pfp_amongus_halloween.png"/>
+</content:encoded>
+<itunes:duration>22</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+<guid isPermaLink="false">
+<![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
+</guid>
+<enclosure url="http://localhost:3001/podcast/episode01" length="0" type="audio/mpeg"/>
+</item>
+
 </channel>
 </rss>

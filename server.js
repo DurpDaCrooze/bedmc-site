@@ -12,7 +12,7 @@ const port = 3001;
 app.use(express.static('BedMC-WEB'));
 app.use(express.static('DrawBoard'));
 app.use(express.static('NotFound'));
-app.use(express.static('RssFeed'));
+app.use(express.static('Podcast'));
 
 app.get('/', (req, res) =>{
     res.sendFile(__dirname + '/BedMC-WEB/index.html')
@@ -23,7 +23,11 @@ app.get('/drawboard', (req, res) =>{
 })
 
 app.get('/podcast/rss', (req, res) =>{
-    res.sendFile(__dirname + '/RssFeed/rss.xml')
+    res.sendFile(__dirname + '/Podcast/rss.xml')
+})
+
+app.get('/podcast/episode01', (req, res) =>{
+    res.sendFile(__dirname + '/Podcast/AudioData/podcast#01.mp3')
 })
 
 app.get('/*', (req, res) =>{
