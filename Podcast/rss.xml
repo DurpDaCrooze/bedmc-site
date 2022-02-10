@@ -22,7 +22,7 @@
 <link>https://www.bedmc.net</link>
 </image>
 <itunes:summary>
-<![CDATA[ podcast but dumb ]]>
+<![CDATA[ podcast but mid ]]>
 </itunes:summary>
 <podcast:locked owner="dumbassproductionsmt@gmail.com">Yes</podcast:locked>
 <itunes:author>Dumb*ssProductions</itunes:author>
@@ -51,6 +51,26 @@
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
 </guid>
 <enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
+</item>
+
+<item>
+<title>#1 - Hello world, with video this time.</title>
+<description>The gang tests spotify video streaming for the first time, some of them got stage fright and some just didnt speak at all.</description>
+<pubDate>Thur, 10 Feb 2022 20:32:00 -0000</pubDate>
+<itunes:title>#1 - Hello world, with video this time.</itunes:title>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:author>Dumb*ssProductions</itunes:author>
+<itunes:subtitle/>
+<itunes:summary>The gang tests spotify streaming for the first time, some of them got stage fright and some just didnt speak at all.</itunes:summary>
+<content:encoded>
+<itunes:image href="https://media.discordapp.net/attachments/297094570158850049/939533970079645786/Discord_pfp_amongus_halloween.png"/>
+</content:encoded>
+<itunes:duration>22</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+<guid isPermaLink="false">
+<![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
+</guid>
+<enclosure url="http://www.bedmc.net/podcast/episode02" length="0" type="video/mpeg"/>
 </item>
 
 </channel>
