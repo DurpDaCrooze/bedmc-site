@@ -27,7 +27,7 @@
 <podcast:locked owner="dumbassproductionsmt@gmail.com">Yes</podcast:locked>
 <itunes:author>Dumb*ssProductions</itunes:author>
 <itunes:owner>
-<itunes:name>Midcast</itunes:name>
+<itunes:name>Dumb*ssProductions</itunes:name>
 <itunes:email>dumbassproductionsmt@gmail.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
@@ -50,7 +50,7 @@
 <guid isPermaLink="false">
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
 </guid>
-<enclosure url="http://localhost:3001/podcast/episode01" length="0" type="audio/mpeg"/>
+<enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
 </item>
 
 </channel>
