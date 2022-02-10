@@ -28,20 +28,6 @@ h3{
 #saberwarsdiv{
   background-color: #fee1c7;
 
-  padding-left: 25%;
-  padding-right: 25px;
-  padding-top: 1px;
-  padding-bottom:10px;
-  margin-top: 15px;
-  margin-left: -28px;
-  margin-bottom: 75px;
-}
-
-#saberwarsdiv{
-  background-color: #fee1c7;
-
-  padding-left: 25%;
-  padding-right: 25px;
   padding-top: 1px;
   padding-bottom:10px;
   margin-top: 15px;
@@ -51,9 +37,7 @@ h3{
 
 #saberwarsgif{
   width: 500px;
-  float: right;
-  margin-top: -230px;
-  margin-right: 450px;
+  margin-top: -340px;
   background: blue;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 4px #877769;
@@ -62,22 +46,27 @@ h3{
 #saberwarspar{
   color: #27282c;
   font-family:"Montserrat";
-  width: 450px;
-  text-align: right;
+  width: 400px;
+  text-align: left;
   font-weight: 600;
+  height:auto;
 }
 
 #saberwarstitle{
-  text-align: right;
-  width: 450px;
+  text-align: left;
+  width: auto;
 }
 
 #saberwarstitleline{
-  background-color: #27282c;
-  border-color: none;
+  width: 360px;
+  border: 1px solid #27282c;
+  fill:#27282c;
 }
 
+/*header section-----------------------------------------------------*/
+
 #header{
+  z-index: 1;
   background-color: #f44174;
   border-color: #f44174;
   width: 100%;
