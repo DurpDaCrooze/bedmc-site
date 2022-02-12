@@ -22,6 +22,10 @@ app.get('/drawboard', (req, res) =>{
     res.sendFile(__dirname + '/DrawBoard/index.html')
 })
 
+app.get('/podcast', (req, res) =>{
+    res.sendFile(__dirname + '/Podcast/podcast-site.html')
+})
+
 app.get('/podcast/rss', (req, res) =>{
     res.sendFile(__dirname + '/Podcast/rss.xml')
 })
@@ -31,7 +35,7 @@ app.get('/podcast/episode01', (req, res) =>{
 })
 
 app.get('/podcast/episode02', (req, res) =>{
-    res.sendFile(__dirname + '/Podcast/AudioData/podcast#02.mp4')
+    res.sendFile(__dirname + '/Podcast/AudioData/podcast#02.mp3')
 })
 
 app.get('/*', (req, res) =>{
