@@ -53,25 +53,5 @@
 <enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
 </item>
 
-<item>
-<title>#1 - Early testers exclusive | We told you so.</title>
-<description>The gangs f*ckboy looses his girl. Reports say everyone told him so, but he never listened.</description>
-<pubDate>Thur, 10 Feb 2022 20:32:00 -0000</pubDate>
-<itunes:title>#1 - Early testers exclusive | We told you so.</itunes:title>
-<itunes:episodeType>full</itunes:episodeType>
-<itunes:author>Dumb*ssProductions</itunes:author>
-<itunes:subtitle/>
-<itunes:summary>The gangs f*ckboy looses his girl. Reports say everyone told him so, but he never listened.</itunes:summary>
-<content:encoded>
-<itunes:image href="https://media.discordapp.net/attachments/297094570158850049/939533970079645786/Discord_pfp_amongus_halloween.png"/>
-</content:encoded>
-<itunes:duration>392</itunes:duration>
-<itunes:explicit>yes</itunes:explicit>
-<guid isPermaLink="false">
-<![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
-</guid>
-<enclosure url="http://www.bedmc.net/podcast/episode02" length="0" type="audio/mpeg"/>
-</item>
-
 </channel>
 </rss>
