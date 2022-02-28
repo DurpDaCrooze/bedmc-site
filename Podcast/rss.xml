@@ -50,7 +50,7 @@
 <guid isPermaLink="false">
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
 </guid>
-<enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
+<enclosure url="http://www.bedmc.net/podcast/episode00" length="0" type="audio/mpeg"/>
 </item>
 
 <item>
@@ -70,7 +70,7 @@
 <guid isPermaLink="false">
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc9 ]]>
 </guid>
-<enclosure url="http://www.bedmc.net/podcast/episode02" length="0" type="audio/mpeg"/>
+<enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
 </item>
 
 </channel>
