@@ -34,6 +34,10 @@ app.get('/podcast/episode01', (req, res) =>{
     res.sendFile(__dirname + '/Podcast/AudioData/podcast#01.mp3')
 })
 
+app.get('/podcast/episode02', (req, res) =>{
+    res.sendFile(__dirname + '/Podcast/AudioData/podcast#02.mp3')
+})
+
 app.get('/*', (req, res) =>{
     res.sendFile(__dirname + "/NotFound/index.html")
 })
