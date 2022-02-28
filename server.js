@@ -30,11 +30,11 @@ app.get('/podcast/rss', (req, res) =>{
     res.sendFile(__dirname + '/Podcast/rss.xml')
 })
 
-app.get('/podcast/episode00', (req, res) =>{
+app.get('/podcast/episode000', (req, res) =>{
     res.sendFile(__dirname + '/Podcast/AudioData/podcast#00-spotify.mp3')
 })
 
-app.get('/podcast/episode01', (req, res) =>{
+app.get('/podcast/episode001', (req, res) =>{
     res.sendFile(__dirname + '/Podcast/AudioData/podcast#01-spotify.mp3')
 })
 

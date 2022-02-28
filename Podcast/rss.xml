@@ -50,18 +50,18 @@
 <guid isPermaLink="false">
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc8 ]]>
 </guid>
-<enclosure url="http://www.bedmc.net/podcast/episode00" length="0" type="audio/mpeg"/>
+<enclosure url="http://www.bedmc.net/podcast/episode000" length="0" type="audio/mpeg"/>
 </item>
 
 <item>
 <title>#1 - Pilot.</title>
-<description>Welcome to Midcast, where apperently Jordan wants to fuck Kanye and Calvin just shits himself.</description>
+<description>Welcome to the Midcast podcast, where apperently Jordan wants to fuck Kanye and Calvin just shits himself.</description>
 <pubDate>Mon, 28 Feb 2022 12:40:00 -0000</pubDate>
 <itunes:title>#1 - Pilot.</itunes:title>
 <itunes:episodeType>full</itunes:episodeType>
 <itunes:author>Dumb*ssProductions</itunes:author>
 <itunes:subtitle/>
-<itunes:summary>Welcome to Midcast, where apperently jordan wants to fuck Kanye and Calvin just shits himself.</itunes:summary>
+<itunes:summary>Welcome to the Midcast podcast, where apperently Jordan wants to fuck Kanye and Calvin just shits himself.</itunes:summary>
 <content:encoded>
 <itunes:image href="https://media.discordapp.net/attachments/297094570158850049/939533970079645786/Discord_pfp_amongus_halloween.png"/>
 </content:encoded>
@@ -70,7 +70,7 @@
 <guid isPermaLink="false">
 <![CDATA[ 455e5cfc-6cc2-11eb-beaa-6b7c5dc99dc9 ]]>
 </guid>
-<enclosure url="http://www.bedmc.net/podcast/episode01" length="0" type="audio/mpeg"/>
+<enclosure url="http://www.bedmc.net/podcast/episode001" length="0" type="audio/mpeg"/>
 </item>
 
 </channel>
