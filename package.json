@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2",
-    "prisma": "^3.9.1"
-  }
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "prisma": "^3.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DurpDaCrooze/bedmc-site.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DurpDaCrooze/bedmc-site/issues"
+  },
+  "homepage": "https://github.com/DurpDaCrooze/bedmc-site#readme",
+  "description": ""
 }

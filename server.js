@@ -5,6 +5,12 @@ var fs = require('fs');
 const { response } = require("express");
 var http = require('http');
 
+const { PrismaClient } = require("@prisma")
+
+const prisma = new PrismaClient()
+
+const { post } = new PrismaClient();
+
 app.use(cors());
 const port = 3001;
 
@@ -16,6 +22,15 @@ app.use(express.static('Podcast'));
 
 app.get('/', (req, res) =>{
     res.sendFile(__dirname + '/BedMC-WEB/index.html')
+})
+
+app.get('/nhie', (req, res) =>{
+    res.send("lol");
+    const posts = post.findMany({
+        select:{
+            postContent: true
+        }
+    });
 })
 
 app.get('/drawboard', (req, res) =>{
