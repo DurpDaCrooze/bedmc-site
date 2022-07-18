@@ -38,7 +38,7 @@ app.get('/drawboard', (req, res) =>{
 })
 
 app.get('/podcast', (req, res) =>{
-    res.sendFile(__dirname + '/Podcast/Site/site.html')
+    res.sendFile(__dirname + '/Podcast/Site/podcast-site.html')
 })
 
 app.get('/podcast/rss', (req, res) =>{
