@@ -14,6 +14,9 @@ app.use(express.static('DrawBoard'));
 app.use(express.static('NotFound'));
 app.use(express.static('Podcast'));
 
+app.use(express.static('Podcast/Site'));
+
+
 app.get('/', (req, res) =>{
     res.sendFile(__dirname + '/BedMC-WEB/index.html')
 })
